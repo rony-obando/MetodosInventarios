@@ -8,7 +8,7 @@ namespace Infraestructure.MetodosInv
     public class MUEPS
     {
         Producto[] Productos;
-        Producto variable;
+        //Producto variable;
         decimal costo = 0;
         decimal CostoCompraa = 0;
 

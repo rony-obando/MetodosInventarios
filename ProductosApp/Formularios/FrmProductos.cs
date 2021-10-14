@@ -21,7 +21,10 @@ namespace ProductosApp.Formularios
             this.productoService = productoService;
             InitializeComponent();
         }
-
+        /*public FrmProductos()
+        {
+            InitializeComponent();
+        }*/
         private void FrmProductos_Load(object sender, EventArgs e)
         {
             cmbMeasureUnit.Items.AddRange(Enum.GetValues(typeof(UnidadMedida))

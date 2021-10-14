@@ -46,34 +46,38 @@
             this.flowLayoutPanel1.Controls.Add(this.btnUpdate);
             this.flowLayoutPanel1.Controls.Add(this.btnNew);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 396);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(9, 322);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(776, 42);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(582, 34);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(673, 3);
+            this.btnDelete.Location = new System.Drawing.Point(505, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(100, 30);
+            this.btnDelete.Size = new System.Drawing.Size(75, 24);
             this.btnDelete.TabIndex = 0;
             this.btnDelete.Text = "Eliminar";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(567, 3);
+            this.btnUpdate.Location = new System.Drawing.Point(426, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(100, 30);
+            this.btnUpdate.Size = new System.Drawing.Size(75, 24);
             this.btnUpdate.TabIndex = 1;
             this.btnUpdate.Text = "Modificar";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(461, 3);
+            this.btnNew.Location = new System.Drawing.Point(347, 2);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(100, 30);
+            this.btnNew.Size = new System.Drawing.Size(75, 24);
             this.btnNew.TabIndex = 2;
             this.btnNew.Text = "Nuevo";
             this.btnNew.UseVisualStyleBackColor = true;
@@ -88,9 +92,10 @@
             "Rango Precio",
             "Fecha vencimiento",
             "Unidad Medida"});
-            this.cmbFinderType.Location = new System.Drawing.Point(12, 12);
+            this.cmbFinderType.Location = new System.Drawing.Point(9, 10);
+            this.cmbFinderType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbFinderType.Name = "cmbFinderType";
-            this.cmbFinderType.Size = new System.Drawing.Size(217, 24);
+            this.cmbFinderType.Size = new System.Drawing.Size(164, 21);
             this.cmbFinderType.TabIndex = 1;
             this.cmbFinderType.SelectedIndexChanged += new System.EventHandler(this.CmbFinderType_SelectedIndexChanged);
             // 
@@ -98,49 +103,56 @@
             // 
             this.cmbMeasureUnit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMeasureUnit.FormattingEnabled = true;
-            this.cmbMeasureUnit.Location = new System.Drawing.Point(235, 12);
+            this.cmbMeasureUnit.Location = new System.Drawing.Point(176, 10);
+            this.cmbMeasureUnit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbMeasureUnit.Name = "cmbMeasureUnit";
-            this.cmbMeasureUnit.Size = new System.Drawing.Size(189, 24);
+            this.cmbMeasureUnit.Size = new System.Drawing.Size(143, 21);
             this.cmbMeasureUnit.TabIndex = 2;
             this.cmbMeasureUnit.Visible = false;
             // 
             // txtFinder
             // 
-            this.txtFinder.Location = new System.Drawing.Point(235, 12);
+            this.txtFinder.Location = new System.Drawing.Point(176, 10);
+            this.txtFinder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFinder.Name = "txtFinder";
-            this.txtFinder.Size = new System.Drawing.Size(423, 22);
+            this.txtFinder.Size = new System.Drawing.Size(318, 20);
             this.txtFinder.TabIndex = 3;
             this.txtFinder.Visible = false;
             // 
             // rtbProductView
             // 
-            this.rtbProductView.Location = new System.Drawing.Point(12, 42);
+            this.rtbProductView.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.rtbProductView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbProductView.Location = new System.Drawing.Point(9, 34);
+            this.rtbProductView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtbProductView.Name = "rtbProductView";
             this.rtbProductView.ReadOnly = true;
-            this.rtbProductView.Size = new System.Drawing.Size(776, 348);
+            this.rtbProductView.Size = new System.Drawing.Size(583, 284);
             this.rtbProductView.TabIndex = 4;
             this.rtbProductView.Text = "";
             // 
             // btnFind
             // 
-            this.btnFind.Location = new System.Drawing.Point(664, 14);
+            this.btnFind.Location = new System.Drawing.Point(498, 11);
+            this.btnFind.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(121, 23);
+            this.btnFind.Size = new System.Drawing.Size(91, 19);
             this.btnFind.TabIndex = 5;
             this.btnFind.Text = "Buscar";
             this.btnFind.UseVisualStyleBackColor = true;
             // 
             // FrmProductos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnFind);
             this.Controls.Add(this.rtbProductView);
             this.Controls.Add(this.txtFinder);
             this.Controls.Add(this.cmbMeasureUnit);
             this.Controls.Add(this.cmbFinderType);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmProductos";
             this.Text = "Catalogo de productos";
             this.Load += new System.EventHandler(this.FrmProductos_Load);
